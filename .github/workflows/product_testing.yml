@@ -1,12 +1,14 @@
 name: Product Testing
 
 on:
+  push:
+    branches: [main]
   pull_request:
-    branches:
-    - staging
+    branches: [main]
+    
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
 
     env:
@@ -22,5 +24,6 @@ jobs:
 
       -run: python -m pip install --upgrade pip
       -run: pip install -r requirements.txt
+      -run: python manage.py migrate
       -run: python manage.py test
 
