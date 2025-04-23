@@ -42,7 +42,7 @@ A product catalog API that allows for basic CRUD operations, and has a search fu
 ## Usage:
 
 Provided in this URL is the link to the live documentation of the project:
-<a href="https://overloop-assesment.onrender.com/api/redoc/">Click here!</a>
+<a href="https://product-catalog-api-ho3a.onrender.com/api/schema/swagger-ui/">Click here!</a>
 
 
 ## Technologies Used:
