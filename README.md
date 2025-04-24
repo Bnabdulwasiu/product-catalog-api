@@ -25,14 +25,17 @@ A product catalog API that allows for basic CRUD operations, and has a search fu
     cd py -m venv venv
 
 4. Activate virtual environment:
-  •On windows
-    ```bash
-    venv\scripts\activate
-    
-  •On Unix/Macos
-    ```bash
-    source venv/bin/activate
-      
+
+   - On **Windows**:
+     ```bash
+     venv\Scripts\activate
+     ```
+
+   - On **macOS/Linux**:
+     ```bash
+     source venv/bin/activate
+     ```
+
 5. Install dependencies(using pip):
    ```bash
    pip install -r requirements.txt
