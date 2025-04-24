@@ -25,10 +25,11 @@ A product catalog API that allows for basic CRUD operations, and has a search fu
     cd py -m venv venv
 
 4. Activate virtual environment:
-•On windows
+  •On windows
     ```bash
     venv\scripts\activate
-•On Unix/Macos
+    
+  •On Unix/Macos
     ```bash
     source venv/bin/activate
       
@@ -82,6 +83,3 @@ Use tools like Postman or Swagger to explore the API. Live documentation is avai
 <li>dotenv: To manage environment variables </li>
 <li>GitHub Actions: CI/CD workflow setup</li
 </ul>
-
-## Contributing
- Feel free to open an issue or submit a pull request if you would like to contribute to this project
