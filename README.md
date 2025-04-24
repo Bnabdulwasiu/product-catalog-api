@@ -71,8 +71,10 @@ Create a .env file in the root directory with the following:
 ```bash
 python manage.py test
 ```
+## Live Demo
+Access the live API at: https://product-catalog-api-ho3a.onrender.com/api/products/
 
-## Live Demo:
+## Usage:
 Use tools like Postman or Swagger to explore the API. Live documentation is available at:
 <a href="https://product-catalog-api-ho3a.onrender.com/api/schema/swagger-ui/">Click here!</a>
 
