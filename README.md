@@ -70,6 +70,7 @@ Create a .env file in the root directory with the following:
 ### Running Tests
 ```bash
 python manage.py test
+```
 
 ## Live Demo:
 Use tools like Postman or Swagger to explore the API. Live documentation is available at:
